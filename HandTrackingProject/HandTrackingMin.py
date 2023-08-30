@@ -58,14 +58,3 @@ while True:
 
     
 
-str = """ ## Éxtraction des points de repère
-                    for id, lm in enumerate(handLms.landmark):
-
-                        h, w, c = img.shape
-                        cx, cy = int(lm.x*w), int(lm.y*h)
-                        print(id, cx, cy)
-
-                        ## Affichage du point de repère 0
-                        if id == 4:
-                            cv2.circle(img, (cx,cy), 15, (255,0,255), cv2.FILLED)"""
-    
