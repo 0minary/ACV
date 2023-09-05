@@ -5,6 +5,7 @@ import time
 
 class HandDetector():
 
+
     def __init__(self, mode=False, maxHands=2):
         
         self.mode = mode
